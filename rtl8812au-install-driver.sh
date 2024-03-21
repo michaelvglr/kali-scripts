@@ -1,5 +1,5 @@
 sudo apt update &&
-sudo apt install -y linux-headers-$(uname -r) &&
+sudo apt install -y make linux-headers-$(uname -r) &&
 git clone https://github.com/aircrack-ng/rtl8812au &&
 cd rtl8812au/ &&
 make &&
